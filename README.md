@@ -1,5 +1,9 @@
 # Turtlebot_Arabic
 
+
+
+
+
 # <div dir="rtl">قبل تثبيت تيرتل بوت</div>  
 ## <div dir="rtl"> اولا يجب انشاء مساحة عمل فيROS</div>
 
@@ -10,10 +14,10 @@
 #### <div dir="rtl">وتوثيق التثبيت الجديد من خلال أمر:</div>
 ``` $ source devel/setup.bash ```
 
-# <div dir="rtl"> تثبيت تيرتلبوت</div>  
+# <div dir="rtl"> تثبيت تيرتلبوت</div> ![much-smaller image]( https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZHnxzPWjOnc9FM2YLq0p7OfGJDT-TIIGw6A&usqp=CAU ) 
 
 
-#### <div dir="rtl">تنصيب الاعتماديات </div>
+### <div dir="rtl">تنصيب الاعتماديات </div>
 
 ``` cd ~/catkin_ws/src/ ``` 
 
@@ -28,16 +32,18 @@
 
 ##### <div dir="rtl">اذهب إلى الملف من خلال أمر:</div>
 ``` gedit ~/.bashrc ```
-##### <div dir="rtl">وفي نهاية الملف اضف هذا السطر مع نموذج اللذي اخترته:</div>
+##### <div dir="rtl">وفي نهاية الملف ارفق احدى هذه النماذج:</div>
 ``` export TURTLEBOT3_MODEL=burger ```
+
 ``` export TURTLEBOT3_MODEL=waffle ```
+
 ``` export TURTLEBOT3_MODEL=waffle_pi ```
 
 
-#### <div dir="rtl">أعد تحميلbashrc </div>
+### <div dir="rtl">أعد تحميلbashrc </div>
 ``` source ~/.bashrc ```
 
-##### <div dir="rtl">لتحميل ملفات محاكاة التيرتل بوت اجري هذه الأوامر:</div>
+### <div dir="rtl">لتحميل ملفات محاكاة التيرتل بوت اجري هذه الأوامر:</div>
 ``` cd ~/catkin_ws/src/ ```
 
 ``` git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git ```
